@@ -3,7 +3,7 @@ theme: jekyll-theme-dinky
 title:  Just recipes
 email:  aldrinm@gmail.com
 description:  Recipe scrapbook
-baseurl:  ""
+baseurl:  "/justrecipes"
 twitter_username:  aldrinm
 github_username:  aldrinm
 
