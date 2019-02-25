@@ -1,1 +1,22 @@
 theme: jekyll-theme-dinky
+
+title:  Just recipes
+email:  aldrinm@gmail.com
+description:  Recipe scrapbook
+baseurl:  ""
+twitter_username:  aldrinm
+github_username:  aldrinm
+
+
+# Build settings
+markdown: kramdown
+
+# permalink: /:title:output_ext
+
+collections:
+  # components:
+    # output: true
+  recipes:
+    output:  true
+
+exclude:  ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']

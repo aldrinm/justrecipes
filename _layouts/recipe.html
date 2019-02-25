@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<!-- call up the image and image credit link -->
+{% for image in page.image %}
+  <img src="{{site.baseurl}}/images/{{ image }}" />
+{% endfor %}
+
+<section>
+  {{ content }}
+</section> 
+
+{% if page.ingredients %}
+<section>
+    <h4>Ingredients</h4>
+    <ul>
+      <!-- list ingredients that make up recipe -->
+      {% for ingredient in page.ingredients %}
+      <li>{{ ingredient | markdownify }}</li>
+      {% endfor %}
+    </ul>
+</section>
+{% endif %}
+
+{% if page.directions %}
+<section>
+    <h4>Directions</h4>
+    <ol>
+        {% for direction in page.directions %}
+        <li>{{ direction | markdownify }}</li>
+        {% endfor %}
+    </ol>
+</section>
+{% endif %}
+
+{% if page.notes %}
+<section>
+    <h4>Notes</h4>
+    <ul>
+        {% for note in page.notes %}
+        <li>{{ note | markdownify }}</li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}    
+
+{% if page.source %}
+<h6>Source</h6>
+<a href="{{ page.source }}">{{ page.source }}</a>
+{% endif %}
