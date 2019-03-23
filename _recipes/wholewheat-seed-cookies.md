@@ -39,7 +39,7 @@ directions:
 notes:    
 - If you want your cookies to be flat and crispy, when you go to turn the baking sheets back to front halfway through the baking, tap them down on the back of the oven door before sliding them back in. This will cause the rising cookies to fall.
 - Measurements for dry ingredients are given by weight for greater accuracy. The equivalent measurements by volume are approximate.
-
+- Reduce the chocolate and sugar - it gets too chocolately and sweet!
 source: 
     https://cooking.nytimes.com/recipes/1016560-seeded-chocolate-chip-cookies
 ---
